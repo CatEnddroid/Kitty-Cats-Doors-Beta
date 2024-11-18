@@ -1,5 +1,3 @@
---Thanks for using Kittys Cats Doors hub ui made by jake brocks
-
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
@@ -136,7 +134,6 @@ Tabs.Main:AddButton({
                   Title = "Get Item",
                   Callback = function()
                       print("Confirmed the dialog.")
-                  _G.Model = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Mischevious%20Shakelight.rbxm?raw=true'
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.lua", true))()
                   end
               },
@@ -163,8 +160,7 @@ Tabs.Main:AddButton({
                   Title = "Get Item",
                   Callback = function()
                       print("Confirmed the dialog.")
-                  _G.Model = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Curious%20Shakelight.rbxm?raw=true'
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.lua", true))()
+local Curious = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Curious%20Shakelight.rbxm?raw=true'
                   end
               },
               {
