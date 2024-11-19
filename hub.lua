@@ -134,6 +134,7 @@ Tabs.Main:AddButton({
                   Title = "Get Item",
                   Callback = function()
                       print("Confirmed the dialog.")
+_G.Model = Mischievous
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.lua", true))()
                   end
               },
@@ -160,7 +161,8 @@ Tabs.Main:AddButton({
                   Title = "Get Item",
                   Callback = function()
                       print("Confirmed the dialog.")
-local Curious = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Curious%20Shakelight.rbxm?raw=true'
+_G.Model = Guiding
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.lua", true))()
                   end
               },
               {
